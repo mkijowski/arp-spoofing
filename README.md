@@ -1,4 +1,4 @@
-# Lab 3 Addendum - Arp spoofing
+# Lab 3 Addendum - ARP spoofing
 
 ### Introduction
 Now that you are done with Lab 3 we can cover one of the challenges that was
