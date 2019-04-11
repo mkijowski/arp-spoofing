@@ -80,7 +80,7 @@ poison_gateway.hwdst= gateway_mac
 #   poison_gateway.hwsrc= local_mac
 ```
 Hopefully these packets are pretty obvious.  But we still need a lot of logic
-wrapped around it and for that I refer to [code/arper.py](../master/code/arper.py)
+wrapped around it and for that I refer to [code/arp.py](../master/code/arp.py)
 
 
 ### Acknowledgement
