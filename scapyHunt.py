@@ -562,8 +562,8 @@ def internalDot6(pkt):
       rpkt = arpIsAt(pkt)
  
   # Immediately ignore any packets not from the supposed .4 and .6 clients
-  #elif pkt.haslayer(Ether) and pkt[Ether].src not in [clients['10.5.0.6'],clients['10.5.0.4']]:
-  # return
+  elif pkt.haslayer(Ether) and pkt[Ether].src not in [clients['10.5.0.6'],clients['10.5.0.4']]:
+    return
  
  # TCP handling
   elif (pkt.haslayer(TCP)):
